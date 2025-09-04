@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def uppercase(str):
-    """Print a string in uppercase followed by a new line."""
     out = ""
     for ch in str:
         code = ord(ch)
