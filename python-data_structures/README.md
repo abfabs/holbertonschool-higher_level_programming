@@ -101,5 +101,3 @@ pycodestyle 7-add_tuple.py
 * **BB (abfabs)** — [github.com/abfabs](https://github.com/abfabs)
 
 ```
-::contentReference[oaicite:0]{index=0}
-```
