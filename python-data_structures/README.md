@@ -99,5 +99,3 @@ pycodestyle 7-add_tuple.py
 ## Author
 
 * **BB (abfabs)** — [github.com/abfabs](https://github.com/abfabs)
-
-```
