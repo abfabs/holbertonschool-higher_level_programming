@@ -24,4 +24,3 @@ def roman_to_int(roman_string):
         else:
             number += current_value
     return number
-   
