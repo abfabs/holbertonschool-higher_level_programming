@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-uniq_add = __import__('2-uniq_add').uniq_add
-
-my_list = [1, 2, 3, 1, 4, 2, 5]
-result = uniq_add(my_list)
-print("Result: {:d}".format(result))
+def search_replace(my_list, search, replace):
+    new_list = []
+    for element in my_list:
+        if element == search:
+            new_list.append(replace)
+        else:
+            new_list.append(element)
+    return new_list
