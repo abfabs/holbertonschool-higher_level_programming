@@ -1,35 +1,22 @@
-Test add_integer
-
 >>> add_integer = __import__('0-add_integer').add_integer
 
-# Adding two integers
->>> add_integer(2, 3)
-5
+>>> add_integer(2, 5)
+7
 
-# Adding an integer and a float (float is casted to int)
->>> add_integer(2, 3.7)
-5
+>>> add_integer(2.7, 5)
+7
 
-# Adding with default b = 98
->>> add_integer(10)
-108
+>>> add_integer(5)
+103
 
-# Negative numbers
->>> add_integer(-5, -7)
--12
-
-# Floats that truncate
->>> add_integer(1.9, 2.9)
-3
-
-# Wrong type for a
->>> add_integer("hello", 3)
+>>> add_integer("Hi", 5)
 Traceback (most recent call last):
-    ...
 TypeError: a must be an integer
 
-# Wrong type for b
->>> add_integer(3, [1, 2])
+>>> add_integer(float('nan'))
 Traceback (most recent call last):
-    ...
-TypeError: b must be an integer
+ValueError: cannot convert float NaN to integer
+
+>>> add_integer(float('inf'))
+Traceback (most recent call last):
+OverflowError: cannot convert float infinity to integer
