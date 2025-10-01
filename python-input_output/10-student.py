@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Student:
     def __init__(self, first_name, last_name, age):
         """Initialize a Student with first name, last name, and age."""
