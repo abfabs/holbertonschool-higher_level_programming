@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+"""
+This module defines the Student class.
+The Student class is used to represent a student with
+first name, last name, and age, and provides a method
+to retrieve a dictionary representation of the instance.
+"""
+
 class Student:
     def __init__(self, first_name, last_name, age):
         """Initialize a Student with first name, last name, and age."""
